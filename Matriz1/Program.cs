@@ -10,12 +10,14 @@ namespace Matriz1
     {
         static void Main(string[] args)
         {
+            Console.Write("Ordem da matriz quadrada: ");
             //declarando variavel
             int n = int.Parse(Console.ReadLine());
 
             //tamanho da matriz dada pelo usuario
             int[,] mat = new int[n, n];
 
+            Console.Write("Digite os nu meros da matriz separando-os por um espaço: ");
             //loop linha
             for (int i = 0; i < n; i++)
             {
